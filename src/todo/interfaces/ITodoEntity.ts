@@ -1,5 +1,3 @@
-
-
 export interface ITodoEntity {
     name: string;
     description: string;
