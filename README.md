@@ -73,6 +73,25 @@ npm run start:prod
 }
 ```
 
+### Listar todos
+
+- **GET** `/todo/all`
+
+### Atualizar To-do
+
+- **PUT** `/todo/update/:id`
+- **Body** (JSON) — envie apenas os campos que deseja atualizar:
+
+```json
+{
+  "completed": true
+}
+```
+
+### Deletar To-do
+
+- **DELETE** `/todo/delete/:id`
+
 ## Estrutura (visão geral)
 
 - `src/todo/todo.controller.ts`: endpoints HTTP
